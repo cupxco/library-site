@@ -5,8 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>KMCLU Library Portal | Academic Book Search</title>
-<meta name="description" content="KMCLU Library Portal - Search academic books across multiple departments.">
+<title>Library Search Portal | Academic Book Search</title>
+<meta name="description" content="Library Search Portal - Search academic books across multiple departments.">
 <link rel="canonical" href="https://library.kmclu.cupx.in/">
 
 <!-- PDF -->
@@ -150,7 +150,7 @@ footer {
   <path d="M3 4h7a3 3 0 013 3v13H6a3 3 0 01-3-3V4z"/>
   <path d="M21 4h-7a3 3 0 00-3 3v13h7a3 3 0 003-3V4z"/>
 </svg>
-<h1 class="portal-title">KMCLU Library Portal</h1>
+<h1 class="portal-title">Library Search Portal</h1>
 <div class="subtitle">Search Academic Books</div>
 </div>
 
@@ -233,7 +233,7 @@ return alert("No data to export.");
 const wb=XLSX.utils.book_new();
 
 const data=[
-["KMCLU Library Search Portal by CupX"],
+["Library Search Portal by CupX"],
 ["Sr. No","Title","Language","Material Type"]
 ];
 
@@ -325,7 +325,7 @@ headStyles:{fillColor:[48,84,150],textColor:255},
 didDrawPage:function(){
 doc.setFontSize(20);
 doc.setFont(undefined,"bold");
-doc.text("KMCLU Library Search Portal by CupX",105,20,{align:"center"});
+doc.text("Library Search Portal by CupX",105,20,{align:"center"});
 doc.setFont(undefined,"normal");
 }
 });
